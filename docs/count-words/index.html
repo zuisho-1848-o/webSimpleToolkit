@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字数カウント | WebSimpleToolkit</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./count-words.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <h1>文字数カウント</h1>
+        <section id="inputArea">
+            <textarea name="inputText" id="inputText" cols="30" rows="10" placeholder="ここにテキストを入力"></textarea>
+        </section>
+
+        <section id="resultArea">
+            <div><span id="allCount">0</span> <span>文字</span> <span> - 文字数(スペース改行タブ込み)</span></div>
+            <div><span id="noNewLineCount">0</span> <span>文字</span> <span> - 文字数(スペースタブ込み、改行なし)</span></div>
+            <div><span id="mainCount">0</span> <span>文字</span> <span> - 文字数(スペース改行タブなし)</span></div>
+            <div><span id="twitterCount">?</span> <span>文字</span> <span> - 文字数(twitter風)</span></div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+<script src="../main.js"></script>
+<script src="./count-words.js"></script>
+</html>

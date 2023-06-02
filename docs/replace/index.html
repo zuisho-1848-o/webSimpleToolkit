@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字数カウント | WebSimpleToolkit</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./replace.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <h1>文字置換</h1>
+        <section id="inputArea">
+            <textarea name="inputText" id="inputText" cols="30" rows="10" placeholder="ここに置換前のテキストを入力"></textarea>
+
+            <h2>置換ペア（複数設定可能）</h2>
+            <div class="replacePairs">
+                <span>置換前：</span><input type="text" class="before">
+                <span>＝＞</span>
+                <span>置換後：</span><input type="text" class="after">
+            </div>
+            <div class="replacePairs">
+                <span>置換前：</span><input type="text" class="before">
+                <span>＝＞</span>
+                <span>置換後：</span><input type="text" class="after">
+            </div>
+
+        </section>
+
+        <section id="resultArea">
+            <h2>置換後テキスト</h2>
+            <input type="button" value="置換前表示切り替え" id="displayToggle">
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+<script src="../main.js"></script>
+<script src="./replace.js"></script>
+</html>

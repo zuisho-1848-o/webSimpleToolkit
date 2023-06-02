@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#explain {
+    margin: auto;
+    text-align: center;
+}
+
+#tools {
+    margin: 20px auto;
+    background: #ccc;
+    border-radius: 50px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+#tools h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+#tools ul {
+    padding: 20px;
+}
+
+#tools ul li {
+    list-style: disc;
+    margin: 5px auto;
+}
+#tools ul li a {
+    text-decoration: underline;
+}
+
+
